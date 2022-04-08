@@ -1,0 +1,35 @@
+{
+  "name": "mintyfresh",
+  "version": "0.0.0",
+  "description": "express gateway for NFT minting microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon -r dotenv/config ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaRockSol/mintyfresh.git"
+  },
+  "keywords": [
+    "nft",
+    "solana",
+    "nodejs",
+    "microservice"
+  ],
+  "author": "JockDaRock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaRockSol/mintyfresh/issues"
+  },
+  "homepage": "https://github.com/DaRockSol/mintyfresh#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
